@@ -1,0 +1,34 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor backup files
+*~
+*.swp
+
+# Ignore log files
+*.log
+
+# Ignore compiled code or binaries
+*.class
+*.o
+*.so
+*.exe
+
+# Ignore dependencies and build directories
+node_modules/
+build/
+dist/
+
+# Ignore sensitive or private information
+config.ini
+secrets.json
+
+# Ignore temporary files
+.tmp/
+
+# Ignore files generated during testing
+coverage/
+test-results/
+
+*.bin
+*.json
